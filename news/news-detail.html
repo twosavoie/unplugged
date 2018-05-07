@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Unplugged</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="../site.webmanifest">
+        <link rel="apple-touch-icon" href="../icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <!-- fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <header class="main-header clearfix">
+          <h1 id="logo">
+              <a href="../index.html"><img src="../img/logo.png" alt="Unplugged" /></a> <!-- correct href? none in answer code -->
+          </h1>
+
+          <nav>
+            <ul>
+              <li><a href="../concerts/index.html"><i class="fas fa-music"></i>Concerts</a></li>
+              <li><a href="../reviews/index.html"><i class="fas fa-headphones"></i>Reviews</a></li>
+              <li><a href="../about/index.html"><i class="fas fa-users"></i>About Us</a></li>
+              <li><a href="../about/faqs.html"><i class="fas fa-question-circle"></i>FAQ</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main id="main-content"> <!-- main wrapper --> <!-- no main-content class in answer code -->
+            <article class="detailed-content">
+              <figure class="news-img"> <!-- reviews-img in answer code -->
+                <img src="../img/news-detail.jpg" alt="Wilco photo">
+              </figure>
+
+              <header class="article-header detail-title">
+                <h1>Wilco Announces a New Album and a Summer Tour</h1>
+                <ul class="article-meta-info">
+                    <li class="article-author">Author Name</li>
+                    <li class="article-pub-date"><span content="2015-6-9">June 09, 2015</span></li> <!-- Skillcrush had <time>June 09, 2015</time> tried adding datetime="2015-6-9" but didnt' validate -->
+                </ul>
+              </header>
+
+              <p><strong>Byline: </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra</p>
+
+              <div class="clearfix"></div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+
+            </article>
+
+
+      <!-- Side Bar -->
+            <aside class="sidebar detail">
+              <div class="newsletter">
+                <h2>Newsletter Signup</h2>
+                <form>
+                  <input type="text">
+                  <input type="submit" class="btn sign-up" value="Sign Up">
+                </form>
+              </div> <!-- newsletter -->
+            </aside>
+          </main>
+
+        <!-- footer -->
+          <footer>
+            <div id="footer-logo">
+              <img src="../img/logo.png" alt="footer logo unplugged" />
+            </div>
+          </footer>
+
+        <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
